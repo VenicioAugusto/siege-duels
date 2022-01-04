@@ -1,5 +1,5 @@
 {
-    "name": "SiegeDuels",
+    "name": "PlayerInputActions",
     "maps": [
         {
             "name": "Player",
@@ -25,6 +25,14 @@
                     "name": "Fire",
                     "type": "Button",
                     "id": "0e215ddf-ed66-4ade-901f-8e8145143811",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "1af9fd20-349d-4cc1-aa9b-5b7202e7b18b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -248,6 +256,28 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bf5b1c1c-9ac0-44ff-b60f-eaa3c406e6fe",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25619631-17aa-49a9-bf0c-480808ba7001",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -606,7 +636,7 @@
                 {
                     "name": "",
                     "id": "9e92bb26-7e3b-4ec4-b06b-3c8f8e498ddc",
-                    "path": "*/{Submit}",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

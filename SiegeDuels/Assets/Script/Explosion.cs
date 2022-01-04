@@ -33,7 +33,7 @@ public class Explosion : MonoBehaviour {
         
     }
 
-    void Explode()
+    public void Explode()
     {
         Vector3 bombposition = transform.position;
         Quaternion bombrotation = transform.rotation;
